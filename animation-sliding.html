@@ -17,7 +17,7 @@
                     property:position;
                     from: -4 2 -22;
                     to: 4 2 -8;
-                    dur: 2000;
+                    dur: 1;
                     loop: true;
                     dir:alternate
                     "
@@ -31,12 +31,24 @@
            property:position;
           from: -4 5 -22;
            to: 4 5 -8;
-           dur: 2000;
+           dur: 1;
           loop: true;
           dir:alternate
           " 
         ></a-box>
-        
+        <a-cone 
+        height="2"
+        color="white"
+        rotation="180 0 0"
+        animation="
+           property:position;
+          from: -4 4 -22;
+           to: 4 4 -8;
+           dur: 1;
+          loop: true;
+          dir:alternate
+          " 
+    ></a-cone>
             <!-- Floor --> 
             <a-plane position="0 0 -15" height="16" 
                     width="10" rotation="-90 0 0"
