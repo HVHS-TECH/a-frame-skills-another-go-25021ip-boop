@@ -26,7 +26,15 @@
             <!-- Floor --> 
             <a-plane position="0 0 -15" height="16" 
                     width="10" rotation="-90 0 0"
-                    color="black">
+                    color="black"
+                     animation="
+                    property:position;
+                    from: -4 2 -22;
+                    to: 4 2 -8;
+                    dur: 2000;
+                    loop: true;
+                    dir:alternate
+                    "
             </a-plane>
             <!-- Walls -->
             <!-- Right Wall -->
@@ -35,11 +43,27 @@
             </a-box>
             <!-- Left Wall -->
             <a-box position="-5 2 -15" height="4" width=".5"
-                    color="red" depth="16">
+                    color="red" depth="16"
+                     animation="
+                    property:position;
+                    from: -4 2 -22;
+                    to: 4 2 -8;
+                    dur: 2000;
+                    loop: true;
+                    dir:alternate
+                    "
             </a-box>
             <!-- Back Wall -->
             <a-box position="0 2 -23" height="4" width="10"
-                    color="orange" depth=".5">
+                    color="orange" depth=".5"
+                     animation="
+                    property:position;
+                    from: -4 2 -22;
+                    to: 4 2 -8;
+                    dur: 2000;
+                    loop: true;
+                    dir:alternate
+                    "
             </a-box>
         </a-scene>
     </body>
